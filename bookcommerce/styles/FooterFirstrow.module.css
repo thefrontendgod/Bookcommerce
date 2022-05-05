@@ -102,10 +102,14 @@
     }
     .rightdiv{
         margin-right: 5%;
-        background: green;
     }
 
     .titlelist{
         font-size: 18px;
+    }
+
+    .eachicon{
+        margin-right: 10px;
+        font-size:50px;
     }
 }
