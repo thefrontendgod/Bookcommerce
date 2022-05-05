@@ -98,7 +98,7 @@
 
 @media (max-width: 600px) {
     .rightside{
-        grid-template-columns: 40% 50%;
+        grid-template-columns: 80%;
     }
     .rightdiv{
         margin-right: 5%;
