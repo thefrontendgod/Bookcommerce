@@ -100,4 +100,12 @@
     .rightside{
         grid-template-columns: 40% 50%;
     }
+    .rightdiv{
+        margin-right: 5%;
+        background: green;
+    }
+
+    .titlelist{
+        font-size: 18px;
+    }
 }
