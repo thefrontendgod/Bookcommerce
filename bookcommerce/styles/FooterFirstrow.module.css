@@ -26,7 +26,7 @@
 
 .eachicon{
     margin-right: 10px;
-    font-size:30px;
+    font-size: 30px;
 }
 
 /* the right side of the first row */
@@ -97,7 +97,6 @@
 
     .eachicon{
         background: red;
-        margin-right: 10px;
         font-size: 80px;
     }
 }
