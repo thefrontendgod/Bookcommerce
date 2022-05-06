@@ -13,7 +13,7 @@ import styles from '../styles/FooterSecondrow.module.css'
 
 export default function Footer() {
   return (
-    <div className={styles.firstrow}>
+    <div className={styles.wraps}>
         <div className={`${styles.leftside}`}>
             <div className={styles.stayconnected_title}>Stay Connected</div>
             <div className={styles.iconset}>
