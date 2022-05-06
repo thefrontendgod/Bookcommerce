@@ -43,7 +43,7 @@ export default function HeaderFirstrow() {
         </div>
 
         <div className={`${styles.divwraps} ${styles.mobilehamburger}`}>
-            <ImMenu />
+            <ImMenu className={styles.icon} />
         </div>
     </div>
   )
