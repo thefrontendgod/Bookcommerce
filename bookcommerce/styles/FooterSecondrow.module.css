@@ -9,7 +9,7 @@
 
 /* the left side of the first row */
 .leftside{
-    width: 40%;
+    width: 45%;
 }
 
 .stayconnected_title{
@@ -31,7 +31,7 @@
     display: grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: end;
-    width: 60%;
+    width: 55%;
 }
 
 .rightdiv{
