@@ -37,6 +37,7 @@
 @media (max-width: 900px) {
     .wraps{
         grid-template-columns: 1fr 1fr 1fr;
+        padding: 20px;
     }
 }
 

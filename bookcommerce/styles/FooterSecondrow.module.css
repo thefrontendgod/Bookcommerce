@@ -64,6 +64,9 @@
 }
 
 @media (max-width: 900px) {
+    .firstrow{
+        padding: 20px;
+    }
     .rightside{
         grid-template-columns: 1fr 1fr;
     }
