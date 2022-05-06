@@ -7,8 +7,72 @@
     border-bottom: 1px solid rgba(47, 79, 79, 0.4);
 }
 
+.divwraps{
+    display: flex;
+    align-items: center;
+}
+
+.wishlist_wraps{
+    margin-right: 10px;
+    padding-left: 10px;
+    border-left: 1px solid lightgray;
+}
+
+.otherwraps{
+    border-left: 1px solid lightgray;
+    padding-left: 10px;
+}
+
+.buyerprotection_text{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.wishlist_text{
+    margin-right: 5px;
+}
+
+.account_text{
+    margin-left: 5px;
+}
+
+
+@media (max-width: 1400px) {
+    .wraps{
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .wraps{
+        padding: 20px;
+    }
+}
+
 @media (max-width: 800px) {
     .wraps{
-        padding: 5px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    .wraps{
+        padding: 10px;
+    }
+
+    .divwraps{
+        font-size: 40px;
+    }
+
+    .buyerprotection_text, .wishlist_text, .account_text{
+        display: none;
+    }
+
+    .otherwraps, .wishlist_wraps{
+        border: 0px;
+    }
+
+    .accountdrpdwn{
+        display: none;
     }
 }
