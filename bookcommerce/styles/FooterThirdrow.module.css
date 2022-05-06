@@ -39,8 +39,17 @@
 
 @media (max-width: 800px) {
     .wraps{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         padding: 20px;
+    }
+
+    .eachdiv{
+        border-bottom: 2px solid rgba(255, 255, 255, 0.9);
+        margin-bottom: 10px;
+    }
+
+    .eachdiv:last-child{
+        border-bottom: 0px;
     }
 
     .ul_mobile_padd {
