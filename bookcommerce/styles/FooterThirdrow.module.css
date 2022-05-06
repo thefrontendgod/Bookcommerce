@@ -42,4 +42,8 @@
         grid-template-columns: 1fr 1fr;
         padding: 20px;
     }
+
+    .ul_mobile_padd {
+        padding-right: 5px;
+    }
 }

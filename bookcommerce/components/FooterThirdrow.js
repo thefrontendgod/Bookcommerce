@@ -9,7 +9,7 @@ export default function FooterThirdrow() {
     <div className={styles.wraps}>
         <div className={styles.eachdiv}>
             <div className={styles.title}>Get to Know Us</div>
-            <ul className={styles.ul}>
+            <ul className={`${styles.ul} ${styles.ul_mobile_padd}`}>
                 <li>Careers</li>
                 <li>Blog</li>
                 <li>About Us</li>
@@ -31,7 +31,7 @@ export default function FooterThirdrow() {
         </div>
         <div className={styles.eachdiv}>
             <div className={styles.title}>Investors Information Center</div>
-            <ul className={styles.ul}>
+            <ul className={`${styles.ul} ${styles.ul_mobile_padd}`}>
                 <li>About Us</li>
                 <li>Our Space and the Industry</li>
                 <li>Financials </li>
