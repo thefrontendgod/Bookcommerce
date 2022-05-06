@@ -5,6 +5,7 @@
     padding: 10px 200px;
     background: rgba(47, 79, 79, 0.1);
     border-bottom: 1px solid rgba(47, 79, 79, 0.4);
+    color: rgba(0,0,0,0.7);
 }
 
 .divwraps{
@@ -62,7 +63,6 @@
 
     .divwraps{
         font-size: 30px;
-        color: rgba(47, 79, 79, 0.9);
     }
 
     .buyerprotection_text, .wishlist_text, .account_text{
