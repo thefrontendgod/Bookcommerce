@@ -37,6 +37,8 @@
 @media (max-width: 900px) {
     .wraps{
         grid-template-columns: 1fr 1fr 1fr;
+        justify-content: stretch;
+        /* justify-items: center; */
         padding: 20px;
     }
 }
