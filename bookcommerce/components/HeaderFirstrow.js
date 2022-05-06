@@ -8,6 +8,7 @@ import {RiHandHeartLine} from 'react-icons/ri';
 import {BsShieldCheck} from 'react-icons/bs';
 import {AiOutlineDollar} from 'react-icons/ai';
 import {HiOutlineUsers} from 'react-icons/hi';
+import {ImMenu} from 'react-icons/im';
 
 // import styles
 import styles from '../styles/HeaderFirstrow.module.css'
@@ -39,6 +40,10 @@ export default function HeaderFirstrow() {
             <AiOutlineUser />
             <div className={styles.account_text}>Account</div>
             <MdOutlineKeyboardArrowDown className={styles.accountdrpdwn} />
+        </div>
+
+        <div className={`${styles.divwraps} ${styles.mobilehamburger}`}>
+            <ImMenu />
         </div>
     </div>
   )

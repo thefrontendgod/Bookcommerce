@@ -55,6 +55,13 @@
     }
 }
 
+/* hide mobile hamburger */
+@media (min-width: 700px) {
+    .mobilehamburger{
+        display: none;
+    }
+}
+
 @media (max-width: 700px) {
     .wraps{
         padding: 10px;
@@ -75,5 +82,9 @@
 
     .accountdrpdwn{
         display: none;
+    }
+
+    .mobilehamburger{
+        display: block;
     }
 }
