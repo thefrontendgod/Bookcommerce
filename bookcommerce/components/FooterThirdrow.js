@@ -30,7 +30,7 @@ export default function FooterThirdrow() {
             </ul>
         </div>
         <div className={styles.eachdiv}>
-            <div className={styles.title}>Investors Information Center</div>
+            <div className={styles.title}>Investor's Center</div>
             <ul className={`${styles.ul} ${styles.ul_mobile_padd}`}>
                 <li>About Us</li>
                 <li>Our Space and the Industry</li>
