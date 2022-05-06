@@ -94,6 +94,12 @@
         width: 100%;
         margin-top: 30px;
     }
+
+    .eachicon{
+        background: red;
+        margin-right: 10px;
+        font-size: 80px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -106,10 +112,5 @@
 
     .titlelist{
         font-size: 18px;
-    }
-
-    .eachicon{
-        margin-right: 10px;
-        font-size:50px;
     }
 }
