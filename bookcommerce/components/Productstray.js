@@ -9,21 +9,28 @@ import styles from '../styles/Productstray.module.css'
 
 // import assets
 import img1 from '../assets/images/books/img1.jpg'
+import booksdata from '../booksdata.js'
 
 export default function Productstray() {
+    const cart = [
+        ["The Book That Stood Out", "The Book that stod out is the first of the second of the third", "$3.99"],
+        ["Sandra The Banny", "The Book that stod out is the first of the second of the third", "$2.99"],
+        ["Roots & Rookie Chooks", "The Book that stod out is the first of the second of the third", "$1.99"],
+        ["Karnal Joe and Bingie", "The Book that stod out is the first of the second of the third", "$5.99"],
+        ["Roots & Rookie Chooks", "The Book that stod out is the first of the second of the third", "$2.99"],
+        ["Ranks & Jambienie Korker", "The Book that stod out is the first of the second of the third", "$2.99"],
+        ["Banks in African Lookies", "The Book that stod out is the first of the second of the third", "$2.99"],
+        ["Roots & Rookie Chooks", "The Book that stod out is the first of the second of the third", "$2.99"],
+    ];
   return (
     <div className={styles.wraps}>
-        <EachProduct img="img1" title="The Book That Stood Out" description="The Book that stod out is the first of the second of the third" price="$2.99" />
-        <EachProduct title="The Book That Stood Out" description="The Book that stod out is the first of the second of the third" price="$2.99" />
-        <EachProduct title="The Book That Stood Out" description="The Book that stod out is the first of the second of the third" price="$2.99" />
-        <EachProduct title="The Book That Stood Out" description="The Book that stod out is the first of the second of the third" price="$2.99" />
-        <EachProduct img="img1" title="The Book That Stood Out" description="The Book that stod out is the first of the second of the third" price="$2.99" />
-        <EachProduct img="img1" title="The Book That Stood Out" description="The Book that stod out is the first of the second of the third" price="$2.99" />
-        <EachProduct title="The Book That Stood Out" description="The Book that stod out is the first of the second of the third" price="$2.99" />
-        <EachProduct title="The Book That Stood Out" description="The Book that stod out is the first of the second of the third" price="$2.99" />
-        <EachProduct title="The Book That Stood Out" description="The Book that stod out is the first of the second of the third" price="$2.99" />
-        <EachProduct img="img1" title="The Book That Stood Out" description="The Book that stod out is the first of the second of the third" price="$2.99" />
-        {/* <EachProduct /> */}
+      {cart.map((items, index) => {
+        return (
+          <div>
+            <EachProduct title={items[0]} description={items[1]} price={items[2]} />
+          </div>
+        );
+      })}
     </div>
   )
 }

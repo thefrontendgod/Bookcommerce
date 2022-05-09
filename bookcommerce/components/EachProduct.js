@@ -9,19 +9,7 @@ import styles from '../styles/EachProduct.module.css'
 import img1 from '../assets/images/books/img1.jpg'
 
 export default function EachProduct(props) {
-    var a = {
-        "first": {
-        "aaa": "111",
-        "bbb": "2222"
-      },
-      "second": {
-       "aaa": "111",
-       "bbb": "2222"
-       }
-      }
-
-      var keys = Object.keys(a);
-  return (
+  return (  
     <div className={styles.wraps}>
         <div className={styles.imgwraps}>
             <Image
