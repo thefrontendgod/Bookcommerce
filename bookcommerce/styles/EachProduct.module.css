@@ -24,4 +24,9 @@
     border-radius: 10px;
     background: royalblue;
     color: white;
+    cursor: pointer;
+}
+
+.falsecart{
+    background: red;
 }

@@ -7,10 +7,6 @@ import EachProduct from './EachProduct'
 // import styles
 import styles from '../styles/Productstray.module.css'
 
-// import assets
-import img1 from '../assets/images/books/img1.jpg'
-import booksdata from '../booksdata.js'
-
 export default function Productstray() {
     const cart = [
         ["The Book That Stood Out", "The Book that stod out is the first of the second of the third", "$3.99"],
