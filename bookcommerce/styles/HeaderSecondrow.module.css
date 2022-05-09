@@ -71,17 +71,21 @@
 }
 
 @media (max-width: 900px) {
+    .left{
+        width: 20%;
+    }
     .center{
         width: 75%;
     }
 
     .right{
-        width: 7%;
+        width: 5%;
     }
 }
 
 @media (max-width: 700px) {
     .wraps{
         padding: 30px;
+        justify-items: start;
     }
 }
