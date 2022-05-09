@@ -71,6 +71,9 @@
 }
 
 @media (max-width: 900px) {
+    .wraps{
+        padding: 0px;
+    }
     .left{
         width: 20%;
         margin-right: 3%;
