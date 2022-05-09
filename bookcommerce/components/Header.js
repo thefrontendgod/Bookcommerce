@@ -1,12 +1,12 @@
 // import libraries
 import React from 'react'
 import HeaderFirstrow from './HeaderFirstrow'
-
+import HeaderSecondrow from './HeaderSecondrow'
 export default function Header() {
   return (
     <div>
-        {/* <div>Accounts</div> */}
         <HeaderFirstrow />
+        <HeaderSecondrow />
     </div>
   )
 }

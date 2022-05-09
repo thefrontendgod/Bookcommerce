@@ -1,0 +1,66 @@
+.wraps{
+    width: 100%;
+    background: rgba(255,165,0,0.1);
+    padding: 20px 200px;
+}
+
+.slidewraps{
+    width: 100%;
+    overflow: hidden;
+}
+
+.figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+    background: blue;
+}
+
+.img{
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider{
+    0%{
+      left: 0;
+    }
+    20%{
+      left: 0;
+    }
+    25%{
+      left: -100%;
+    }
+    45%{
+      left: -100%;
+    }
+    50%{
+      left: -200%;
+    }
+    70%{
+      left: -200%;
+    }
+    75%{
+      left: -300%;
+    }
+    95%{
+      left: -300%;
+    }
+    100%{
+      left: -400%;
+    }
+  }
+
+  @media (max-width: 1400px) {
+    .wraps{
+        padding: 50px;
+    }
+}
+
+@media (max-width: 900px) {
+    .wraps{
+        padding: 20px;
+    }
+}
