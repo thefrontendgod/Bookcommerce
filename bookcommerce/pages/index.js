@@ -4,6 +4,7 @@ import Head from 'next/head'
 // import components
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import Productstray from '../components/Productstray'
 import Slider from '../components/Slider'
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <main>
         <Header />
         <Slider />
+        <Productstray />
       </main>
 
       <footer>

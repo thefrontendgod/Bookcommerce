@@ -1,0 +1,27 @@
+.wraps{
+    width: 100%;
+    background: rgba(220, 220, 220, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.imgwraps{
+    display: flex;
+    justify-content: center;
+}
+
+.textwrap{
+    text-align: center;
+}
+
+.booktitle{
+    font-weight: bold;
+}
+
+.cart{
+    padding: 10px;
+    border-radius: 10px;
+    background: royalblue;
+    color: white;
+}

@@ -1,0 +1,30 @@
+.wraps{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px 200px;
+    gap: 1rem;
+}
+
+.prod{
+    background: rgba(128, 128, 128, 0.9);
+}
+
+@media (max-width: 1400px) {
+    .wraps{
+        padding: 50px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 1000px) {
+    .wraps{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 800px) {
+    .wraps{
+        padding: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
