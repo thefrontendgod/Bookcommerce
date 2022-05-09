@@ -73,9 +73,11 @@
 @media (max-width: 900px) {
     .left{
         width: 20%;
+        margin-right: 3%;
     }
+
     .center{
-        width: 75%;
+        width: 70%;
     }
 
     .right{
