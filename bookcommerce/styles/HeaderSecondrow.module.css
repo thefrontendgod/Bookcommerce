@@ -75,12 +75,13 @@
         padding: 0px;
     }
     .left{
+        background: green;
         width: 20%;
         margin-right: 3%;
     }
 
     .center{
-        width: 70%;
+        width: 65%;
     }
 
     .right{
