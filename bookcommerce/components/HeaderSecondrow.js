@@ -1,6 +1,9 @@
 // import libraries
-import React from 'react'
+import React, {useState} from 'react'
 import Image from 'next/image'
+
+// import components
+import CartCounter from './CartCounter';
 
 // import icons
 import {AiOutlineSearch} from 'react-icons/ai';
@@ -13,7 +16,8 @@ import sitelogo from '../assets/images/sitelogo.png'
 import styles from '../styles/HeaderSecondrow.module.css'
 
 export default function HeaderSecondrow() {
-  return (
+
+    return (
     <div className={styles.wraps}>
         <div className={styles.left}>
             <Image
@@ -35,7 +39,9 @@ export default function HeaderSecondrow() {
             <div className={styles.cartwraps}>
                 <HiOutlineShoppingCart className={styles.righticon} />
                 <div className={styles.cartdetails}>
-                    <div className={styles.cartcount}>0</div>
+                    <div className={styles.cartcount}>
+                        <CartCounter />
+                    </div>
                     <div>Cart</div>
                 </div>
             </div>

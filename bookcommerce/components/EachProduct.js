@@ -7,12 +7,13 @@ import styles from '../styles/EachProduct.module.css'
 
 // import assets
 import img1 from '../assets/images/books/img1.jpg'
+import { useCounter } from '../contexts/CounterContext'
 
 export default function EachProduct(props) {
-
+    // const {increaseCount} = useCounter()
     const reducer = (state, action) => {
         switch (action.type) {
-            case "INCREMENT":
+            case "increaseCartCount":
                 return {counter: state.counter + 1, cartAdded: state.cartAdded}
                 break;
             case "toggleCartButton":
@@ -55,7 +56,7 @@ export default function EachProduct(props) {
                 <span
                     className={`${styles.cart} ${styles.falsecart}`}
                     onClick={()=>{
-                        dispatch({type:"INCREMENT"});
+                        dispatch({type:"increaseCartCount"});
                         dispatch({type:"toggleCartButton"});
                     }}
                     >
